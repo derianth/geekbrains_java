@@ -103,7 +103,6 @@ public class Main {
          else {
              System.out.println("Год не является високосным");
          }
-         testввв
          }
      }
 
