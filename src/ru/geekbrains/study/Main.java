@@ -20,15 +20,15 @@ public class Main {
         int b  = 12;
         int c = 6;
         int d = 8;
-//        math3(a, b, c, d);
-//        System.out.println("Введите первое число");
-//        int proove1 = scanner.nextInt();
-//        System.out.println("Введите второе число");
-//        int proove2 = scanner.nextInt();
-//        math4(proove1, proove2);
-//        math5();
-//        boolean bz = math6();
-//        helloName();
+        math3(a, b, c, d);
+        System.out.println("Введите первое число");
+        int proove1 = scanner.nextInt();
+        System.out.println("Введите второе число");
+        int proove2 = scanner.nextInt();
+        math4(proove1, proove2);
+        math5();
+        boolean bz = math6();
+        helloName();
         highYear();
     }
 
