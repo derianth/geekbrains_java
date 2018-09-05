@@ -97,7 +97,10 @@ public class Main {
      public static void highYear(){
          System.out.println("Введите год");
          int year = scanner.nextInt();
-         if((year % 4 == 0) && (year % 400 == 0) && (year % 100 > 0)) {
+         if((year % 4 == 0 ) && (year % 100 != 0)) {
+             System.out.println("Год високосный");
+         }
+         else if (year % 400 == 0) {
              System.out.println("Год високосный");
          }
          else {
